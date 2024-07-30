@@ -1,0 +1,60 @@
+.App {
+  text-align: center;
+}
+
+.header {
+  background-color: #808080; /* Gray background */
+  padding: 20px;
+  color: white;
+}
+
+.task-form {
+  margin: 20px 0;
+}
+
+.task-form input {
+  padding: 10px;
+  margin-right: 10px;
+  width: 300px;
+}
+
+.task-form button {
+  padding: 10px 20px;
+}
+
+.todo-list {
+  list-style: none;
+  padding: 0;
+  background-color: #add8e6; /* Light blue background */
+  margin: 20px auto;
+  border-radius: 8px;
+  width: 60%; /* Shorter length */
+}
+
+.todo-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid black; /* Black border */
+  margin: 10px 0; /* Distance between boxes */
+  border-radius: 4px;
+  background-color: #e0f7fa; /* Light blue background for individual item */
+}
+
+.todo-item.completed span {
+  text-decoration: line-through;
+  color: #888;
+}
+
+.todo-item button {
+  background: none;
+  border: none;
+  color: red;
+  cursor: pointer;
+}
+
+.todo-item span {
+  flex-grow: 1;
+  text-align: left;
+}
